@@ -1,0 +1,21 @@
+{
+  "name": "flytech-website",
+  "version": "1.0.0",
+  "description": "FTTH & Telecom Products Website for HANGZHOU FLY TECHNOLOGY CO., LTD.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "dev": "npx live-server",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "ftth",
+    "telecom",
+    "onu",
+    "olt",
+    "fiber",
+    "website"
+  ],
+  "author": "HANGZHOU FLY TECHNOLOGY CO., LTD.",
+  "license": "MIT"
+}

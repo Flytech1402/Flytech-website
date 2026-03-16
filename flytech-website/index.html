@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANGZHOU FLY TECHNOLOGY CO., LTD. - FTTH & Telecom Products</title>
+    <meta name="description" content="Professional manufacturer of FTTH & telecom products: DUALBAND CATV ONU, WIFI7 XGSPON BE7200 ONU, OLT, fiber cables, junction boxes, OTDR, splicer, RRU, BBU">
+    <meta name="keywords" content="FTTH, telecom, ONU, OLT, fiber cables, CATV, WiFi7, XGSPON, OTDR, splicer, RRU, BBU, Hangzhou Fly Technology">
+    <meta name="author" content="HANGZHOU FLY TECHNOLOGY CO., LTD.">
+    <meta property="og:title" content="HANGZHOU FLY TECHNOLOGY CO., LTD. - FTTH & Telecom Products">
+    <meta property="og:description" content="Professional manufacturer of FTTH & telecom equipment">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://flytech-ftth.com">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="pt">PT</button>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><span class="logo-highlight">FLY</span>TECH</h1>
+                <p class="tagline" data-key="tagline">Leading FTTH & Telecom Solutions</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home" data-key="nav_home">Home</a></li>
+                    <li><a href="#about" data-key="nav_about">About</a></li>
+                    <li><a href="#products" data-key="nav_products">Products</a></li>
+                    <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2 data-key="hero_title">Advanced FTTH & Telecom Equipment</h2>
+            <p data-key="hero_subtitle">High-quality DUALBAND CATV ONU, WIFI7 XGSPON BE7200 ONU, OLT, cables, junction boxes, OTDR, splicer, RRU, BBU and more.</p>
+            <a href="#products" class="btn-primary" data-key="hero_button">Explore Products</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-key="about_title">About HANGZHOU FLY TECHNOLOGY CO., LTD.</h2>
+            <p data-key="about_text">We are a professional manufacturer and supplier of FTTH (Fiber to the Home) and telecom products, serving global markets with reliable and innovative solutions. Our product range includes optical network units, optical line terminals, fiber cables, testing equipment, and wireless communication devices.</p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-globe"></i>
+                    <h3 data-key="feature1_title">Global Reach</h3>
+                    <p data-key="feature1_text">We export to over 50 countries worldwide.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-certificate"></i>
+                    <h3 data-key="feature2_title">Quality Certified</h3>
+                    <p data-key="feature2_text">Products meet international standards (ISO, CE, RoHS).</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3 data-key="feature3_title">Technical Support</h3>
+                    <p data-key="feature3_text">Dedicated team for pre-sales and after-sales assistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 data-key="products_title">Our Products</h2>
+            <p data-key="products_subtitle">Comprehensive range of FTTH and telecom equipment</p>
+            <div class="product-grid">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-key="contact_title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-key="contact_info">Get in Touch</h3>
+                    <p><i class="fas fa-building"></i> <strong>HANGZHOU FLY TECHNOLOGY CO., LTD.</strong></p>
+                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:leeming_flytech@163.com">leeming_flytech@163.com</a></p>
+                    <p><i class="fas fa-phone"></i> <span data-key="contact_phone">Phone: +86 571 8888 9999</span></p>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-key="contact_address">Hangzhou, Zhejiang, China</span></p>
+                    <div class="whatsapp">
+                        <h4 data-key="whatsapp_title">Contact via WhatsApp</h4>
+                        <img src="images/whatsapp-qr.png" alt="WhatsApp QR Code" id="whatsapp-qr">
+                        <p data-key="whatsapp_scan">Scan QR code to chat with us</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 data-key="contact_form_title">Send Message</h3>
+                    <form id="messageForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn-primary" data-key="contact_send">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> HANGZHOU FLY TECHNOLOGY CO., LTD. All rights reserved.</p>
+            <p data-key="footer_note">Professional FTTH & Telecom Equipment Supplier</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

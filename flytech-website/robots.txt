@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /locales/
+Disallow: /generate-images.ps1
+
+Sitemap: https://flytech-ftth.com/sitemap.xml
