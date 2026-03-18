@@ -105,70 +105,70 @@ const products = [
         name: "DUALBAND CATV ONU",
         description: "Dual-band CATV Optical Network Unit with high performance and stability.",
         tags: ["ONU", "CATV", "Dual-band"],
-        image: "images/product-onu.svg"
+        image: "images/product-onu.jpg"
     },
     {
         id: 2,
         name: "WIFI7 XGSPON BE7200 ONU",
         description: "Next-generation WiFi7 XGSPON ONU with BE7200 speed for ultra-fast connectivity.",
         tags: ["ONU", "WiFi7", "XGSPON", "BE7200"],
-        image: "images/product-wifi7.svg"
+        image: "images/product-wifi7.jpg"
     },
     {
         id: 3,
         name: "OLT (MA5800X7)",
         description: "High-density Optical Line Terminal for large-scale FTTH deployments.",
         tags: ["OLT", "FTTH", "High-density"],
-        image: "images/product-olt-huawei.svg"
+        image: "images/product-olt-huawei.jpg"
     },
     {
         id: 4,
         name: "OLT (C320)",
         description: "Compact OLT solution for small to medium-sized networks.",
         tags: ["OLT", "Compact", "GPON"],
-        image: "images/product-olt-zte.svg"
+        image: "images/product-olt-zte.jpg"
     },
     {
         id: 5,
         name: "Fiber Cables",
         description: "Various types of fiber optic cables: single-mode, multi-mode, indoor, outdoor.",
         tags: ["Cables", "Fiber", "Optical"],
-        image: "images/product-cables.svg"
+        image: "images/product-cables.jpg"
     },
     {
         id: 6,
         name: "Junction Boxes",
         description: "Fiber distribution boxes and splice closures for network protection.",
         tags: ["Junction Box", "Splice", "Distribution"],
-        image: "images/product-junction.svg"
+        image: "images/product-junction.jpg"
     },
     {
         id: 7,
         name: "OTDR",
         description: "Optical Time Domain Reflectometer for fiber testing and fault location.",
         tags: ["OTDR", "Testing", "Diagnostics"],
-        image: "images/product-otdr.svg"
+        image: "images/product-otdr.jpg"
     },
     {
         id: 8,
         name: "Fusion Splicer",
         description: "High-precision fiber fusion splicer for fast and reliable splicing.",
         tags: ["Splicer", "Fusion", "Fiber"],
-        image: "images/product-splicer.svg"
+        image: "images/product-splicer.jpg"
     },
     {
         id: 9,
         name: "RRU (Remote Radio Unit)",
         description: "Remote Radio Unit for wireless base station applications.",
         tags: ["RRU", "Wireless", "Radio"],
-        image: "images/product-rru.svg"
+        image: "images/product-rru.jpg"
     },
     {
         id: 10,
         name: "BBU (Baseband Unit)",
         description: "Baseband Unit for central processing in wireless networks.",
         tags: ["BBU", "Baseband", "Wireless"],
-        image: "images/product-bbu.svg"
+        image: "images/product-bbu.jpg"
     }
 ];
 
