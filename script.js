@@ -239,11 +239,15 @@ function renderProducts() {
     
     grid.innerHTML = '';
     
+    // Product IDs that need object-fit: contain to show entire product
+    const containProductIds = [1, 2, 4, 5, 8, 9]; // dual band catv onu, wifi7 onu, C320 OLT, cables, Fusion Splicer, RRU
+    
     products.forEach(product => {
         const card = document.createElement('div');
         card.className = 'product-card';
+        const imgClass = containProductIds.includes(product.id) ? 'product-img product-img-contain' : 'product-img';
         card.innerHTML = `
-            <img src="${product.image}" alt="${product.name}" class="product-img">
+            <img src="${product.image}" alt="${product.name}" class="${imgClass}">
             <div class="product-content">
                 <h3>${product.name}</h3>
                 <p>${product.description}</p>
